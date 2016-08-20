@@ -1,0 +1,28 @@
+
+/*Gordon: types-of-networks*/
+
+.types-of-networks img {
+  padding: 10px;
+}
+
+/*Gordon: Centralized*/
+
+.centralized h2 {
+  text-align: right
+}
+
+.centralized p {
+  text-align: right
+}
+
+/*Gordon: BitTorrent*/
+
+.bittorrent.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.bittorrent.wrap > img {
+  width: 350px;
+  height: 350px;
+}
