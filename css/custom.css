@@ -23,6 +23,12 @@
 }
 
 .bittorrent.wrap > img {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
+}
+
+.bittorrent.wrap .bit-list {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
