@@ -14,6 +14,11 @@
   color: #F2EEDF;
 }
 
+.reveal p,
+.reveal ul {
+  background-color:rgba(0,43,54,0.6);
+}
+
 /*Gordon: types-of-networks*/
 
 .types-of-networks img {
