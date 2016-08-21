@@ -23,7 +23,7 @@
 		</script>
 	</head>
 	<body>
-		<div class="reveal">
+		<div id="stars" class="reveal">
 			<div class="slides">
 
         <section data-transition="linear" data-background="/images/connections.jpg">
@@ -313,6 +313,15 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+		</script>
+		<!-- starChart stuff -->
+		// stars.js and pixi.min.js is borrowed from https://ipfs.io/
+		// only for the duration of the presentation and nothing else
+		<script src="/js/pixi.min.js" type="text/javascript"></script>
+		<script src="/js/stars.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		  var starchart = new StarChart(document.getElementById('stars'), PIXI, 70, 70, 2);
+		  starchart.run();
 		</script>
 	</body>
 </html>
