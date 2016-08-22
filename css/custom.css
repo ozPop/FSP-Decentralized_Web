@@ -27,12 +27,14 @@
 
 /*Gordon: Centralized*/
 
-.centralized h2 {
-  text-align: right
+.centralized h1 {
+  /*text-align: right;*/
+  margin-left: 450px;
 }
 
 .centralized p {
-  text-align: right
+  text-align: right;
+  background: none;
 }
 
 /*Gordon: BitTorrent*/
