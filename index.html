@@ -305,32 +305,37 @@
 
 				</section>
 
-				<section> <!-- group-start -->
+				<section> <!-- group-start IPFS -->
 
 					<section data-transition="linear">
 						<img class="stretch" src="images/ipfs.png">
-						<aside class="notes">IPFS which stands for InterPlanetary File System is an attempt to create an aletrnative or possibly even a replacement for the Hypertext Trasfer Protocol. It is an Open Source project with hundreds of contributors</aside>
+						<aside class="notes">Lets start with IPFS, which stands for InterPlanetary File System and is an attempt to create an aletrnative or possibly even a replacement for the Hypertext Trasfer Protocol. It is an Open Source project with hundreds of contributors. Essentially, it is a versioned file system that can, store, manage and track files. It accounts for how those files move across the network, akin to BitTorrent protocol.</aside>
 					</section>
 
 					<section data-transition="concave">
+						<h2>Juan Benet</h2>
 						<img class="stretch" src="images/juan_benet.jpg">
-						<aside class="notes">It was concieved by Juan Benet, a Stanford grad in CS, who started a mobile gaming startup later acquired by Yahoo, following that at Y Combinator he founded Protocol Labs, which now runs the IPFS project.</aside>
+						<aside class="notes">It was concieved by Juan Benet, a Stanford grad in CS, who started a startup later acquired by Yahoo, following that at Y Combinator he founded Protocol Labs, which now runs the IPFS project.</aside>
 					</section>
 
 					<section data-transition="concave">
 						<h2>Hypermedia Distribution Protocol</h2>
 						<ul>
 							<li>Distribute data with high efficiency</li>
+								<ul>
+									<li>Fully distributed websites</li>
+									<li>No centralized server</li>
+								</ul>
 							<li>Historic versioning (like git)
 								<ul>
 									<li>Diversely resilient networks for mirroring of data</li>
 								</ul>
 							</li>
-							<li>True to the original vision of the open and flat web</li>
 							<li>Enable persistent availability
 								<ul>
 									<li>With or without Internet backbone connectivity</li>
 								</ul>
+							<li>True to the original vision of the <span  style="text-decoration: underline;">open and flat web</span></li>
 							</li>
 						</ul>
 						<aside class="notes">IPFS is an attempt to make the web faster, safer, more persistant and open using fully distributed applications. It seeks to connect all devices with same system of files. Similar to the original vision of the web but more so than that, a single bittorrent swarm exchanging git objects.</aside>
@@ -341,6 +346,45 @@
 					</section>
 
 				</section> <!-- ./group-end -->
+
+				<section> <!-- group-start MaidSafe-->
+
+					<section data-transition="linear">
+						<img src="images/maid-safe.png">
+						<aside class="notes">Earlier I mentioned something Sir Berners Lee said, that in some cases, we hardly control our own data. MaidSafe wants to put us in control of our own data using the SAFE Network, it stands for, Secure Access For Everyone. Taking inspiration from P2P, the safe network joins together spare computing resources creating a global data and communications network.</aside>
+					</section>
+
+					<section data-transition="concave">
+						<h2>David Irvine</h2>
+						<img class="stretch" src="images/david-irvine.jpg">
+						<aside class="notes">Maidsafe was started in 2002 by David Irvine. Research shows he studied engineering and has been involved with IT, network design, data security for the last 20+ years.</aside>
+					</section>
+
+					<section data-transition="concave"  data-background="/images/maid-apps.svg">
+						<h1 style="position: absolute; top: -350px; right: 650px;">Distributed applications</h1>
+						<aside class="notes">Maidsafe aims to replace today's server centric systems with a fully distributed, safe, secure, and private network architecture. A network that is impervious to interceptions, copying, stealing or selling private data.</aside>
+					</section>
+
+					<section data-transition="concave">
+						<h2>Three security stages implemented by MaidSafe protocol</h2>
+						<ol>
+							<li>Encrypt data on client side</li>
+							<li>Ecrypted files are "chunked" and encrypted again</li>
+							<li>Distribute chunks across decentralized network</li>
+						</ol>
+						<aside class="notes">First encrypt files on the client<br><br> Then files are split into pieces and secured again with Encrypt Library, and finally files are distributed across the network to randomly chosen available "vaults".</aside>
+					</section>
+
+					<section data-transition="concave" data-background="/images/safe-vault.svg">
+						<h1 style="margin-left: 600px">Safe Vault</h1>
+						<aside class="notes">Using P2P technology, a vault joins together the space each member of the network has allocated for the Safe network usage. This spare space is used to host all SAFE users data, creating a global storage. Think crowd sourced web storage.</aside>
+					</section>
+				</section> <!-- ./group-end -->
+
+				<section data-transition="linear">
+					<h2>Conclusion</h2>
+					<aside class="notes">In conclusion.</aside>
+				</section>
 
 			</div> <!-- ./slides -->
 		</div> <!-- ./reveal -->
