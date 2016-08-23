@@ -5,6 +5,19 @@ _By Gordon Gao and Ozzie Popovas_
 
 ----
 
+### Disclaimer
+
+We tried our best to gather all the sources that inspired this presentation in 
+this one location. If we missed something and didn't properly credit the authors 
+of work we apologize. All the resources used in this presentation are only used 
+for the duration of the presentation and nothing more.
+
+#### Presentation Is Powered By
+
+* [Reveal.js](https://github.com/hakimel/reveal.js#master-presentation)
+
+#### Official Site Of Decentralized Web Summit
+
 * [Decentralize Web Summit Main Site](http://www.decentralizedweb.net/)
 
 #### Relevant Distributed Technologies
@@ -16,7 +29,7 @@ P2P
 * [Legal uses of BiTorrent](http://www.makeuseof.com/tag/8-legal-uses-for-bittorrent-youd-be-surprised/)
 * [P2P Explained](http://www.webopedia.com/DidYouKnow/Internet/peer_to_peer.asp)
 * [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
-    * [Bittorrent Explained](http://www.howtogeek.com/141257/htg-explains-how-does-bittorrent-work/)
+    * [BiTtorrent Explained](http://www.howtogeek.com/141257/htg-explains-how-does-bittorrent-work/)
 
 Blockchain
 
@@ -41,12 +54,12 @@ Blockchain
 
 #### Emerging Distributed Web Technologies And Applications
 
-IPFS - A Reaplacement For HTTP?
+IPFS - A Replacement For HTTP?
 
 * [HTTP vs IPFS](https://ipfs.io/ipfs/QmNhFJjGcMPqpuYfxL62VVB9528NXqDNMFXiqN5bgFYiZ1/its-time-for-the-permanent-web.html)
 * [Tech Crunch Piece on IPFS](https://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/)
 * [IPFS Main Site](https://ipfs.io/)
-* [IPFS github](https://github.com/ipfs/ipfs)
+* [IPFS Github](https://github.com/ipfs/ipfs)
 * [IPFS-intro](https://www.linkedin.com/pulse/introduction-ipfs-interplanetary-file-system-brief-post-john-lilic?trk=hp-feed-article-title-like)
 
 
@@ -74,7 +87,7 @@ Zeronet - Free And Decentralized Websites Powered By Bitcoin Cryptography And Bi
 
 * [Main Site](https://zeronet.io/)
 
-Matrix - Open Standard For Decentralised Communication
+Matrix - Open Standard For Decentralized Communication
 
 * [Main Site](https://matrix.org/blog/home/)
 
