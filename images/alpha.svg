@@ -8,8 +8,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="680"
-   height="560"
+   width="600"
+   height="700"
+   viewBox="0 0 360 450"
    id="svg4611"
    sodipodi:version="0.32"
    inkscape:version="0.44"
@@ -61,7 +62,7 @@
      transform="translate(-256.6798,-531.7963)">
     <text
        xml:space="preserve"
-       style="font-size:400px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
+       style="font-size:400px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#005F78;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman"
        x="450.96552"
        y="840.36768"
        id="text5540"><tspan

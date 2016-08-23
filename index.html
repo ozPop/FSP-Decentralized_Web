@@ -46,7 +46,7 @@
 			    	<li>Look at a few emerging technologies that aim to help decentralize the web</li>
 					</ul>
 
-					<aside class="notes"> We will inform you about the movement and why it is important, explain some of the foundational tech. Look at a couple emerging decentralized applications.</aside>
+					<aside class="notes"> We will inform you about the movement and why it is important, explain some of the foundational tech. Look at a couple emerging decentralized technologies.</aside>
 				</section>
 
 				<section> <!-- group-start -->
@@ -163,7 +163,7 @@
 			    <section data-transition="linear" class="types-of-networks">
 				  	<h2></h2>
 
-				    <img style="background: #002b36;" class="stretch" src="images/types-of-networks.png" alt="">
+				    <img style="background: #00576E; border: 3px solid #002b36; border-radius: 10px;" class="stretch" src="images/types-of-networks.png" alt="">
 
 				    <aside class="notes">Here we have an example of a few types of networks.<br>
 				    <ul>
@@ -249,7 +249,7 @@
 				  
 			    <section data-transition="concave" data-background="/images/connections2.png">
 				  	<h1>Distribute All The Things</h1>
-				  	<img class="fragment" src="images/all-things.png" alt="">
+				  	<img src="images/all-things.png" alt="">
 
 				    <aside class="notes">The power behind distributed networks is in numbers. The more organizations and inviduals that get involved, the more inovative, redundant, and fast the services would become.</aside>
 				  
@@ -299,8 +299,8 @@
 				</section> <!-- ./group-end -->
 
 				<!-- Ozzie Part 2 -->
-				<section data-transition="linear" data-background="/images/alpha.svg">
-					<h1>Test</h1>
+				<section class="text-border" data-transition="linear" data-background="/images/alpha.svg">
+					<h1 >Test</h1>
 				  <aside class="notes">Thank you Gordon. Before continuing I would like to acknowledge the fact that the technology I am about to introduce is in Alpha stages of development but nevertheless it is already available to be used and experimented with.</aside>
 
 				</section>
@@ -381,8 +381,8 @@
 					</section>
 				</section> <!-- ./group-end -->
 
-				<section data-transition="linear">
-					<h2>Conclusion</h2>
+				<section class="text-border" data-transition="linear">
+					<h1>Conclusion</h1>
 					<aside class="notes">In conclusion, we want to say that the effort to Decentralize the web is just starting. New technologies that could bring in a better web will have to go through rigorous scrutiny and experimentation.<br><br> Investors have been looking hard at decentralized systems. Among others, blockchain has the potential to create what some call a "web of trust" that spans a wide variety of industries beyond finance.<br><br> To get to a future where our data and privacy is secured by default and in our own hands, where web users are not at the mercy of growing censorship and surveilance, where information and websites attain new levels of permanence, "we have to think and act with our children's Internet in mind". </aside>
 				</section>
 
@@ -401,6 +401,8 @@
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'socket.io/socket.io.js', async: true },
+					{ src: 'plugin/notes-server/client.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
